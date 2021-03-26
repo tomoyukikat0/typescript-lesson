@@ -12,3 +12,6 @@ const person = {
 
 const fruits: string[] = ['Apple', 'Banana', 'Grape'];
 
+const book: [string, number, boolean] = ['business', 1500, true];
+
+
