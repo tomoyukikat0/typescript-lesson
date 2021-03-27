@@ -1,5 +1,5 @@
 let hasValue = true;
-let count: number = 10;
+let count: number = 11;
 let float: number = 3.14;
 let negative: number = -0.12
 let single: string = 'hello';
@@ -40,4 +40,13 @@ const cloth: {
 } = {
   color: 'white',
   size: 'medium'
+}
+
+
+function add(num1: number, num2: number): number {
+  return num1 + num2
+}
+
+function sayHello(): void {
+  console.log('hello!')
 }
