@@ -1,5 +1,5 @@
 let hasValue = true;
-let count: number = 10;
+let count: number = 11;
 let float: number = 3.14;
 let negative: number = -0.12
 let single: string = 'hello';
@@ -28,3 +28,25 @@ const coffee = {
 
 let unionType: number | string = 10;
 let unionTypes: (number | string)[] = [21, 'hello']
+
+type ClothSize = 'small' | 'medium' | 'large'
+const apple: 'apple' = 'apple'
+
+let clothSize: ClothSize = 'small'
+
+const cloth: {
+  color: string;
+  size: ClothSize
+} = {
+  color: 'white',
+  size: 'medium'
+}
+
+
+function add(num1: number, num2: number): number {
+  return num1 + num2
+}
+
+function sayHello(): void {
+  console.log('hello!')
+}
